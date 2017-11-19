@@ -1,4 +1,4 @@
-*** REST SERVER
+### REST SERVER
 
 Small toy project which implements an HTTP REST Server in C++.
 
