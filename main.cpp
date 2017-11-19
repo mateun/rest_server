@@ -129,7 +129,7 @@ int main(int argc, char** args) {
 	  printf("Bytes received: %d\n", iResult);
 
 	  // Echo the buffer back to the sender
-	  char sendBuf[1000];
+	  char sendBuf[500];
 	  ZeroMemory(sendBuf, sizeof(sendBuf));
 	  std::string response = "HTTP/1.1 200 OK\n"
 	    "Date: Mon, 27 Oct 2017 11:00:34 GMT+1\n"
